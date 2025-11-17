@@ -1,0 +1,70 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UpscalingMenu",
+	"Description": "A free Unreal Engine 5 plugin that provides an advanced upscaling menu (DLSS, FSR, XeSS, NIS) with automatic hardware/software compatibility checks.",
+	"Category": "Plugin",
+	"CreatedBy": "ZumoDePapaya",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d604a828-0e5c-4e0a-9640-17b5527c49f9",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UpscalingMenu",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DLSS",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "StreamlineCore",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "StreamlineDLSSG",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "StreamlineReflex",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "NIS",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "FSR4",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "AntiLag2",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "XeSS",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}
